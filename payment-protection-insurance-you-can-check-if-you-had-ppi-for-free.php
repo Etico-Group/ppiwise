@@ -7,9 +7,6 @@ require_once '../inc.php';
 <head>
 <?php include_once '../includes/ga.php';?>
 <?php include_once '../includes/google-tag-manager.php';?>
-<?php include_once '../includes/ob-api.php';?>
-<?php include_once '../includes/taboola.php';?>
-<?php //include_once '../includes/uk-heatmap.php';?>
 
 <title>PPIWise.com - UK Consumers Urged To Check For PPI as Deadline Date Approaches</title>
 <meta charset="utf-8">
@@ -59,7 +56,7 @@ require_once '../inc.php';
                   <!-- <img src="./images/c1d847fe-stressed_0ka0dk0ka0dj000000.png" alt="" class="img-responsive img-rounded" style="margin-bottom: 25px;"> -->
                 </div>
             </div>
-                <div class="text-center" style="font-size:14px;"><a href="./apply/<?php $mobile_detect->isMobile() ? '#ppi_form' : '';?>">You Can Check if You've Had PPI for FREE Here</a></div>
+                <div class="text-center" style="font-size:14px;"><a href="http://eticotrack.com/path/out.php">You Can Check if You've Had PPI for FREE Here</a></div>
 
                 <h2 class="bold">PPI was widely sold on finances — often without the customer's knowledge.</h2>
 
@@ -103,7 +100,7 @@ require_once '../inc.php';
 
                 <div class="apply-btn">
 
-                  <a href="./apply/<?php $mobile_detect->isMobile() ? '#ppi_form' : '';?>" class="btn btn-green">Start your FREE PPI Check</a>
+                  <a href="http://eticotrack.com/path/out.php" class="btn btn-green">Start your FREE PPI Check</a>
 
                 </div>
 
@@ -145,5 +142,4 @@ include('../includes/footer.php');
 <?php include('../includes/beforeslashbody.php'); ?>
 </body>
 
-<!-- Mirrored from www.ppiwise.co.uk/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Aug 2017 08:43:02 GMT -->
 </html>
