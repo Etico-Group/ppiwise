@@ -1,6 +1,16 @@
+<?php 
+require_once '../inc.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+<?php include_once '../includes/ga.php';?>
+<?php include_once '../includes/google-tag-manager.php';?>
+<?php include_once '../includes/ob-api.php';?>
+<?php include_once '../includes/taboola.php';?>
+<?php //include_once '../includes/uk-heatmap.php';?>
+
 <title>PPIWise.com - UK Consumers Urged To Check For PPI as Deadline Date Approaches</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
@@ -8,20 +18,12 @@
 <meta name="keywords" content="">
 <meta name="description" content="Get your FREE PPI check today. Read this article now and we’ll walk you through the rest.">
 
-<link rel="prerender" href="./apply/<?php $mobile_detect->isMobile() ? '#ppi_form' : '';?>">
-<link rel="prefetch" href="./apply/<?php $mobile_detect->isMobile() ? '#ppi_form' : '';?>">
-<link rel="dns-prefetch" href="./apply/<?php $mobile_detect->isMobile() ? '#ppi_form' : '';?>">
-
-    <?php require_once '../inc.php';?>
-    <?php include_once '../includes/ga.php';?>
-    <?php include_once '../includes/google-tag-manager.php';?>
-    <?php include ('../includes/beforeslashhead.php'); ?>
-  <!--
-    <?php print_r($_SERVER);?>
-  -->
-
-
+<?php include('../includes/beforeslashhead.php'); ?>
+<!--
+<?php print_r($_SERVER);?>
+-->
 </head>
+
 <body class="news-article"> 
     
     <?php 
@@ -39,6 +41,7 @@
 
 <section class="news">
     
+
   <div class="container">
       <div class="row">
           <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12">
@@ -120,6 +123,8 @@
             </div>
           </div> -->
 
+
+
   </div>
 </section>
 
@@ -131,10 +136,14 @@
     </div>
   </div>
 </div> 
-  <?php //$show_footer_menu=true;
-    $show_term_complaints_links = true;
-    include('../includes/footer.php'); 
-  ?>
+<?php 
+//$show_footer_menu=true;
+$show_term_complaints_links = true;
+include('../includes/footer.php'); 
+?>
+
 <?php include('../includes/beforeslashbody.php'); ?>
 </body>
+
+<!-- Mirrored from www.ppiwise.co.uk/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Aug 2017 08:43:02 GMT -->
 </html>
