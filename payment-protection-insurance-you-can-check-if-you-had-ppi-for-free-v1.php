@@ -19,6 +19,8 @@ require_once '../inc.php';
 <?php //print_r($_SERVER);?>
 -->
 
+<script type="text/javascript" src="https://api.feefo.com/api/javascript/etico-group"></script>
+
 </head>
 
 <body class="news-article"> 
@@ -139,6 +141,7 @@ require_once '../inc.php';
         <div class="col-sm-6"><img src="./images/tree.png" class="img-responsive" title="Tree" alt="tree"/></div>
         <div class="col-sm-6"><img src="./images/billboard.png" class="img-responsive" /></div>
     </div>
+    <div class="col-md-12 text-right" id="feefologohere"></div>
   </div>
 </div> 
 <?php 
