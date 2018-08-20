@@ -34,13 +34,21 @@ if($_SERVER['HTTP_HOST']=='demo.ebizindia.com'){
 			'Call_Back1' => 'Taboola - PPI Wise Call Back'
 			],
 		'revcontent' => [
-			'Apply' => 'Taboola - PPI Wise',
-			'Apply1' => 'Taboola - PPI Wise',
-			'Pack_Request' => 'Taboola - PPI Wise Postal',
-			'Pack_Request1' => 'Taboola - PPI Wise Postal',
-			'Call_Back' => 'Taboola - PPI Wise Call Back',
-			'Call_Back1' => 'Taboola - PPI Wise Call Back'
-		]
+			'Apply' => 'Revcontent - PPI Wise',
+			'Apply1' => 'Revcontent - PPI Wise',
+			'Pack_Request' => 'Revcontent - PPI Wise Postal',
+			'Pack_Request1' => 'Revcontent - PPI Wise Postal',
+			'Call_Back' => 'Revcontent - PPI Wise Call Back',
+			'Call_Back1' => 'Revcontent - PPI Wise Call Back'
+			],
+		'facebook' => [
+			'Apply' => 'Facebook - PPI Wise',
+			'Apply1' => 'Facebook - PPI Wise',
+			'Pack_Request' => 'Facebook - PPI Wise Postal',
+			'Pack_Request1' => 'Facebook - PPI Wise Postal',
+			'Call_Back' => 'Facebook - PPI Wise Call Back',
+			'Call_Back1' => 'Facebook - PPI Wise Call Back'
+			]
 	];
 }else{
 	$utm_known_sources = [
@@ -83,6 +91,14 @@ if($_SERVER['HTTP_HOST']=='demo.ebizindia.com'){
 			'Pack_Request1' => 'RevContent - PPI Wise Postal',
 			'Call_Back' => 'RevContent - PPI Wise Call Back',
 			'Call_Back1' => 'RevContent - PPI Wise Call Back'
-		]
+			],
+		'facebook' => [
+			'Apply' => 'Facebook - PPI Wise',
+			'Apply1' => 'Facebook - PPI Wise',
+			'Pack_Request' => 'Facebook - PPI Wise Postal',
+			'Pack_Request1' => 'Facebook - PPI Wise Postal',
+			'Call_Back' => 'Facebook - PPI Wise Call Back',
+			'Call_Back1' => 'Facebook - PPI Wise Call Back'
+			]
 	];
 }
