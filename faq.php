@@ -7,7 +7,6 @@ require_once 'inc.php';
 <head>
 <?php include_once 'includes/ga.php';?>
 <?php include_once 'includes/fb.php';?>
-<?php //include_once 'includes/uk-heatmap.php';?>
 
 <title>PPI WISE - Home</title>
 <meta charset="utf-8">
@@ -74,7 +73,7 @@ require_once 'inc.php';
                 <p>If so, you may be eligible for compensation.</p>
 
                 <p><b>How much will it cost me to pursue?</b></p>
-                <p>Should your potential claim be successful we charge a fee of 25% plus VAT of the compensation. For example if we recover £1000 compensation, our fee would be £300 or if we recover £2000 compensation, our fee would be £600.</p>
+                <p>Should your potential claim be successful we charge a fee of 20% plus VAT of the compensation. For example if we recover £1000 compensation, our fee would be £240 or if we recover £2000 compensation, our fee would be £480.</p>
 
                 <p><b>When will I receive my compensation?</b></p>
                 <p>The process of reclaiming your money can take as little as ten weeks. However, this can sometimes take longer depending on issues such as the nature of your case and who the lender is.</p>
